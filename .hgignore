@@ -1,0 +1,6 @@
+syntax: glob
+.emacs-project
+*.pyc
+*.sublime-project
+.coverage
+documentation/_build

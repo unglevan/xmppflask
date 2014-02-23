@@ -1,0 +1,116 @@
+body, div.body, div.footer, div.related, div.document {
+    background: none;
+    color: #000;
+}
+
+div.related a {
+    color: #000;
+}
+
+div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h6 {
+    background: none;
+}
+
+div.sphinxsidebar {
+    margin-top: 200px;
+}
+
+div.sphinxsidebar h3, div.sphinxsidebar h4 {
+    background: None;
+}
+
+div.related {
+    text-shadow: none;
+}
+
+div.bodywrapper {
+    margin: 0;
+}
+
+div.sphinxsidebar {
+    margin-left: -230px;
+}
+
+h1, h2, div.body h1, div.body h2 {
+    text-align: center;
+    font-family: Palatino,Georgia,Times,"Times New Roman";
+    text-shadow: 0 0 1px #667;
+    text-transform: uppercase;
+}
+
+h1, div.body h1 {
+    font-size: 46px;
+}
+
+p {
+    text-align: justify;
+}
+
+body div.content {
+    font-size: 17px;
+}
+
+body {
+    font-family: Palatino, Georgia, Times, "Times New Roman";
+}
+
+div.related li {
+    opacity: 0.4;
+    -webkit-transition: opacity 0.1s ease-in;
+    -moz-transition: opacity 0.1s ease-in;
+    -o-transition: opacity 0.1s ease-in;
+}
+
+div.related li:hover {
+    opacity: 1;
+}
+
+body div.body {
+    margin: 0 auto;
+    max-width: 800px;
+    _width: 800px;
+    font-size: 17px;
+    /* word-spacing: .1em; */
+}
+
+div.sphinxsidebar {
+    background-color: #fff;
+    width: 50px;
+    margin-left: -50px;
+    opacity: 0.2;
+    background-color: #dfdfdf;
+    overflow: hidden;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+}
+
+div.sphinxsidebarwrapper {
+    width: 230px;
+}
+
+div.sphinxsidebar:hover {
+    width: 230px;
+    margin-left: -230px;
+    opacity: 1;
+    overflow: none;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+}
+
+pre, .pre, tt, .literal {
+    font-size: 14px;
+}
+
+pre, .pre, tt, .literal {
+    font-family: Consolas, Monospace;
+}
+
+/*
+div.related {
+    background-image: url('xmppflask_72x30.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+*/
